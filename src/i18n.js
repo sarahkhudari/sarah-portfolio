@@ -95,7 +95,7 @@ export const translations = {
             'Push notifications for appointments, follow-ups, and post-treatment care instructions.',
             'Bilingual UI (Arabic / English) with full RTL support and an accessible, calming color system.',
           ],
-          demo: '/demo/dentavision.mp4',
+          demo: 'https://youtube.com/shorts/H20FJaRzdYQ',
           github: '#',
         },
         {
@@ -311,7 +311,7 @@ export const translations = {
             'عرض تقارير التشخيص المدعومة بالذكاء الاصطناعي.',
             'واجهة ثنائية اللغة وسهلة الاستخدام.',
           ],
-          demo: '/demo/dentavision.mp4',
+          demo: 'https://youtube.com/shorts/H20FJaRzdYQ',
           github: '#',
         },
         {
