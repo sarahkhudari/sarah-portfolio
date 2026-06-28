@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5174/src/index.css)",
+      "Bash(curl -s http://localhost:5174/src/index.css)",
+      "Bash(curl -s \"http://localhost:5174/\")",
+      "Bash(curl -s -o /dev/null -w \"5173: %{http_code}\\\\n\" \"http://localhost:5173/\")",
+      "Bash(curl -s \"http://localhost:5173/src/index.css\")",
+      "Bash(curl -s \"http://localhost:5174/src/index.css\")",
+      "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" \"http://localhost:5173/src/index.css\")",
+      "Bash(tasklist)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(python -c \"import pillow_heif, PIL; print\\('OK pillow_heif', pillow_heif.__version__\\)\" 2>&1)",
+      "PowerShell(python -m pip install --quiet pillow pillow-heif 2>&1 | Select-Object -Last 5)",
+      "PowerShell(python -c \"import pillow_heif; from PIL import Image; pillow_heif.register_heif_opener\\(\\); im = Image.open\\(r'C:\\\\Users\\\\local_ttepcj9\\\\OneDrive\\\\Desktop\\\\protofillo\\\\src\\\\IMG_4103.HEIC'\\); print\\('Size:', im.size, 'Mode:', im.mode\\); im = im.convert\\('RGB'\\); out = r'C:\\\\Users\\\\local_ttepcj9\\\\OneDrive\\\\Desktop\\\\protofillo\\\\public\\\\images\\\\sarah.jpg'; im.save\\(out, 'JPEG', quality=88, optimize=True, progressive=True\\); import os; print\\('Wrote', out, os.path.getsize\\(out\\), 'bytes'\\)\" 2>&1)"
+    ]
+  }
+}

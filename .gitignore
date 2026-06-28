@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+public/demo/
+photo/
+src/*.HEIC

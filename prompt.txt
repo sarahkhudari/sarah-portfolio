@@ -1,0 +1,56 @@
+Read the attached portfolio file very carefully.
+
+---
+
+Phase 1: Analysis
+Analyze the portfolio in terms of:
+
+* Overall design style (e.g., Minimal, Modern, Bold, Elegant)
+* Color palette
+* Typography (fonts, sizes, spacing)
+* Layout and structure (section organization)
+* How projects and experience are presented
+* Any animations or interactive elements
+* Overall brand personality and visual feeling
+
+Provide a clear, concise, and precise analysis.
+
+---
+
+Phase 2: Generate a New Prompt
+
+Based on your analysis, generate a high-quality prompt that can be used with an AI to build a new portfolio website.
+
+Requirements:
+
+* Keep the same overall look & feel (style and experience), but DO NOT copy content or identity
+* The new portfolio is for a male Software Engineer
+* Use a masculine, modern color palette (dark theme: navy, black, dark gray, tech blue, or dark green)
+* Clean, professional, and modern UI
+* Fully responsive design (mobile, tablet, desktop)
+
+The prompt must instruct the AI to:
+
+* Build a complete website (HTML + CSS + JS, or React if appropriate)
+* Include the following sections:
+  Hero, About, Skills, Experience, Projects, Services (or What I Do), Contact
+* Use clear placeholders instead of real data, such as:
+  [Full Name], [Job Title], [Project Name], [Email], etc.
+
+---
+
+Phase 3: Prompt Optimization
+
+* Make the prompt reusable and easy to copy
+* Structure it clearly
+* Include instructions for clean, well-organized code
+* Ask for comments in the code explaining where to edit content
+* Emphasize good UI/UX practices
+
+---
+
+Final Output:
+Only return:
+
+1. The analysis
+2. The final optimized prompt (ready to copy & use)
