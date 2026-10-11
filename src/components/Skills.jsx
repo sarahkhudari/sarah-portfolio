@@ -8,6 +8,12 @@ import {
   Plug,
   GitBranch,
   Sparkles,
+  Palette,
+  Database,
+  Layers,
+  Workflow,
+  ClipboardList,
+  Wrench,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext.jsx';
 import { Card } from './ui/Card.jsx';
@@ -20,6 +26,12 @@ const iconMap = {
   LayoutGrid,
   Plug,
   GitBranch,
+  Palette,
+  Database,
+  Layers,
+  Workflow,
+  ClipboardList,
+  Wrench,
 };
 
 export function Skills() {

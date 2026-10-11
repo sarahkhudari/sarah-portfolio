@@ -16,7 +16,7 @@ export const translations = {
     hero: {
       greeting: 'Hello, I’m',
       name: 'Sarah Alkhudari',
-      role: 'Flutter Developer & React Frontend Developer',
+      role: 'Software Developer & React Frontend Developer',
       tagline:
         'Crafting elegant mobile apps and polished web experiences where thoughtful design meets clean, production-ready code.',
       ctaProjects: 'View Projects',
@@ -32,9 +32,10 @@ export const translations = {
       eyebrow: 'About Me',
       title: 'Designing experiences, engineering the details.',
       body: [
-        'I’m Sarah Alkhudari — a Flutter and React developer who loves turning ideas into beautifully crafted, reliable products. I build cross-platform mobile apps with Flutter and modern, responsive interfaces with React.',
-        'My work sits at the intersection of UI/UX sensibility and clean engineering. I care deeply about typography, motion, accessibility, and performance — because the details are what make a product feel premium.',
-        'I write clean, modular, and well-documented code. I collaborate closely with designers and backend teams, integrate REST and GraphQL APIs, and ship features that feel effortless to use. I don’t just build interfaces — I craft user experiences that guide behavior and drive results. By combining intuitive design with data-driven decisions, I aim to increase user engagement, optimize conversion rates, and create products that users genuinely enjoy coming back to.',
+        'I’m Sarah Alkhudari, a Software Engineering graduate specializing in Flutter mobile development and modern frontend technologies, particularly React.js and TypeScript. I enjoy transforming ideas into intuitive, responsive, and visually engaging digital experiences.',
+        'My expertise includes building cross-platform mobile applications, developing interactive web platforms, integrating RESTful APIs, and applying Clean Architecture and Bloc state management. I also have knowledge of backend development using PHP and Laravel, along with requirements analysis, system analysis, and software design.',
+        'From AI-powered healthcare applications to commercial web platforms, I’ve worked on projects that combine thoughtful UI/UX design with clean, maintainable code. As the founder and developer of Invite Studio, I’ve gained hands-on experience building and deploying real-world digital products, translating client requirements into functional, user-friendly solutions.'
+
       ],
       highlights: [
         'Pixel-perfect Flutter mobile apps',
@@ -49,13 +50,22 @@ export const translations = {
       subtitle:
         'The technologies I reach for to build fast, beautiful, and scalable products.',
       items: [
-        { name: 'Flutter', level: 'Expert', icon: 'Smartphone' },
-        { name: 'Dart', level: 'Expert', icon: 'Code2' },
-        { name: 'React', level: 'Advanced', icon: 'Atom' },
-        { name: 'JavaScript', level: 'Advanced', icon: 'Braces' },
-        { name: 'Responsive Design', level: 'Expert', icon: 'LayoutGrid' },
-        { name: 'API Integration', level: 'Advanced', icon: 'Plug' },
-        { name: 'Git / GitHub', level: 'Advanced', icon: 'GitBranch' },
+        { name: 'Flutter', icon: 'Smartphone' },
+        { name: 'Dart', icon: 'Code2' },
+        { name: 'React.js', icon: 'Atom' },
+        { name: 'JavaScript', icon: 'Braces' },
+        { name: 'TypeScript', icon: 'Code2' },
+        { name: 'HTML5 / CSS3', icon: 'Code2' },
+        { name: 'Tailwind CSS', icon: 'Palette' },
+        { name: 'Laravel', icon: 'Database' },
+        { name: 'RESTful APIs', icon: 'Plug' },
+        { name: 'Clean Architecture', icon: 'Layers' },
+        { name: 'Bloc State Management', icon: 'Workflow' },
+        { name: 'Responsive Design', icon: 'LayoutGrid' },
+        { name: 'System Analysis', icon: 'GitBranch' },
+        { name: 'Requirements Analysis', icon: 'ClipboardList' },
+        { name: 'Git / GitHub', icon: 'GitBranch' },
+        { name: 'Postman', icon: 'Wrench' },
       ],
     },
     projects: {
@@ -73,29 +83,43 @@ export const translations = {
       gallery: 'Gallery',
       close: 'Close',
       items: [
+
+
         {
-          id: 'dentavision',
-          kind: 'mobile',
-          title: 'DentaVision',
+          id: 'invite-studio',
+          kind: 'web',
+          title: 'Invite Studio',
           description:
-            'A full-featured Flutter mobile app for a dental clinic: patient records, appointment booking, treatment plans, and in-app notifications with a calm, trustworthy UI.',
-          role: 'Mobile Developer & UI Designer',
-          tech: ['Flutter', 'Dart', 'Firebase', 'REST API'],
-          image: '/images/firstdenta.png',
+            'A commercial platform for creating elegant, interactive digital invitations for weddings and special events. Built with React.js and TypeScript, the platform combines personalized guest experiences, RSVP management, and private client dashboards in a responsive, multilingual interface.',
+
+          role: 'Founder & Frontend Developer',
+
+          tech: [
+            'React.js',
+            'TypeScript',
+            'Vite',
+            'Cloudflare Pages',
+          ],
+
+          image: '/images/invite-studio.jpg',
+
           gallery: [
-            '/images/firstdenta.png',
-            '/images/dental-1.jpg',
-            '/images/dental-2.jpg',
-            '/images/dental-3.jpg',
+            '/images/i1.jpg',
+            '/images/i2.jpg',
+            '/images/i3.jpg',
           ],
+
           features: [
-            'Patient records with full medical history, X-rays, and treatment notes accessible at a glance.',
-            'Appointment booking with a real-time calendar, available slots, and automated reminders.',
-            'Treatment plan timelines that visualize upcoming and completed procedures for each patient.',
-            'Push notifications for appointments, follow-ups, and post-treatment care instructions.',
-            'Bilingual UI (Arabic / English) with full RTL support and an accessible, calming color system.',
+            'Interactive and customizable digital invitation templates.',
+            'Personalized invitation links for individual guests.',
+            'RSVP tracking and guest list management.',
+            'Private client dashboards with attendance statistics.',
+            'QR codes for guest check-in.',
+            'Multilingual support for Arabic, English, and French with RTL/LTR layouts.',
+            'Responsive interfaces optimized for mobile and desktop devices.',
           ],
-          demo: 'https://youtube.com/shorts/H20FJaRzdYQ',
+
+          demo: 'https://invite-studio-bax.pages.dev',
           github: '#',
         },
         {
@@ -169,6 +193,44 @@ export const translations = {
           github: '#',
         },
         {
+          id: 'dentavision',
+          kind: 'mobile',
+          title: 'DentaVision',
+
+          description:
+            'An AI-powered dental healthcare mobile application developed using Flutter. The app integrates a machine learning model to predict dental diseases from dental images and helps patients connect with the appropriate dentist based on the predicted condition. It also provides appointment booking and management through an intuitive, responsive interface.',
+
+          role: 'Flutter Developer & AI Model Integration',
+
+          tech: [
+            'Flutter',
+            'Dart',
+            'RESTful APIs',
+            'AI Model Integration',
+          ],
+
+          image: '/images/firstdenta.png',
+
+          gallery: [
+            '/images/firstdenta.png',
+            '/images/dental-1.jpg',
+            '/images/dental-2.jpg',
+            '/images/dental-3.jpg',
+          ],
+
+          features: [
+            'AI-powered dental disease prediction through image analysis.',
+            'Integration of a machine learning model for dental disease classification.',
+            'Doctor recommendations based on the predicted dental condition and specialization.',
+            'Appointment booking and management.',
+            'RESTful API integration for communication with backend services.',
+            'Responsive and intuitive mobile user interface.',
+          ],
+
+          demo: 'https://youtube.com/shorts/H20FJaRzdYQ',
+          github: '#',
+        },
+        {
           id: 'furniture',
           title: 'Furniture E-Commerce Website',
           description:
@@ -233,7 +295,7 @@ export const translations = {
     hero: {
       greeting: 'مرحبًا، أنا',
       name: 'سارة الخضري',
-      role: 'مطوّرة Flutter و مطوّرة واجهات React',
+      role: 'مطوّرة برمجيات و مطوّرة واجهات React و Flutter',
       tagline:
         'أصمّم وأبني تطبيقات موبايل أنيقة وواجهات ويب متقنة، حيث يلتقي التصميم المدروس بكود نظيف جاهز للإنتاج.',
       ctaProjects: 'استعرضي مشاريعي',
@@ -249,9 +311,9 @@ export const translations = {
       eyebrow: 'عنّي',
       title: 'أصمّم تجربة، وأهندس التفاصيل.',
       body: [
-        'أنا سارة الخضري — مطوّرة Flutter و React، شغوفة بتحويل الأفكار إلى منتجات مصنوعة بعناية وجديرة بالثقة. أبني تطبيقات موبايل متعدّدة المنصّات بـ Flutter وواجهات ويب حديثة ومتجاوبة بـ React.',
-        'عملي يقف عند تقاطع الإحساس البصري بتجربة المستخدم والهندسة النظيفة. أهتمّ جدًا بالطباعة والحركة وسهولة الوصول والأداء — لأن التفاصيل هي ما يمنح المنتج شعورًا فاخرًا.',
-        'أكتب كودًا نظيفًا ومُعَدّلاً وموثّقًا جيدًا. أعمل بتعاون وثيق مع المصمّمين وفِرَق الباك-إند، وأُكامِل واجهات REST و GraphQL، وأُطلِق ميزات يشعر المستخدم معها بالسلاسة التامة.',
+        'أنا سارة الخضري، خريجة هندسة برمجيات ومتخصصة في تطوير تطبيقات الموبايل باستخدام Flutter، وتطوير واجهات الويب الحديثة باستخدام React.js وTypeScript. أستمتع بتحويل الأفكار إلى تجارب رقمية تفاعلية، متجاوبة، وسهلة الاستخدام',
+        'امتلك خبرة في تطوير تطبيقات متعددة المنصات، وبناء واجهات ويب تفاعلية، وربط التطبيقات باستخدام RESTful APIs، وتطبيق مبادئ Clean Architecture وإدارة الحالة باستخدام Bloc. كما أمتلك معرفة بتطوير الـBackend باستخدام PHP وLaravel، بالإضافة إلى تحليل المتطلبات والأنظمة وتصميم البرمجيات',
+        'عملت على مشاريع متنوعة، من تطبيقات الرعاية الصحية المدعومة بالذكاء الاصطناعي إلى منصات الويب التجارية، مع التركيز على تجربة المستخدم وكتابة كود نظيف وقابل للصيانة. ومن خلال تأسيسي وتطويري لمشروع Invite Studio، اكتسبت خبرة عملية في بناء ونشر منتجات رقمية حقيقية، وتحويل متطلبات العملاء إلى حلول عملية وسهلة الاستخدام.'
       ],
       highlights: [
         'تطبيقات Flutter بدقّة عالية',
@@ -265,13 +327,22 @@ export const translations = {
       title: 'أدواتي',
       subtitle: 'التقنيات التي أعتمد عليها لبناء منتجات سريعة وأنيقة وقابلة للتوسّع.',
       items: [
-        { name: 'Flutter', level: 'خبيرة', icon: 'Smartphone' },
-        { name: 'Dart', level: 'خبيرة', icon: 'Code2' },
-        { name: 'React', level: 'متقدّمة', icon: 'Atom' },
-        { name: 'JavaScript', level: 'متقدّمة', icon: 'Braces' },
-        { name: 'التصميم المتجاوب', level: 'خبيرة', icon: 'LayoutGrid' },
-        { name: 'تكامل الـ APIs', level: 'متقدّمة', icon: 'Plug' },
-        { name: 'Git / GitHub', level: 'متقدّمة', icon: 'GitBranch' },
+        { name: 'Flutter', icon: 'Smartphone' },
+        { name: 'Dart', icon: 'Code2' },
+        { name: 'React.js', icon: 'Atom' },
+        { name: 'JavaScript', icon: 'Braces' },
+        { name: 'TypeScript', icon: 'Code2' },
+        { name: 'HTML5 / CSS3', icon: 'Code2' },
+        { name: 'Tailwind CSS', icon: 'Palette' },
+        { name: 'Laravel', icon: 'Database' },
+        { name: 'RESTful APIs', icon: 'Plug' },
+        { name: 'Clean Architecture', icon: 'Layers' },
+        { name: 'Bloc State Management', icon: 'Workflow' },
+        { name: 'التصميم المتجاوب', icon: 'LayoutGrid' },
+        { name: 'تحليل الأنظمة', icon: 'GitBranch' },
+        { name: 'تحليل المتطلبات', icon: 'ClipboardList' },
+        { name: 'Git / GitHub', icon: 'GitBranch' },
+        { name: 'Postman', icon: 'Wrench' },
       ],
     },
     projects: {
@@ -289,29 +360,41 @@ export const translations = {
       gallery: 'معرض الصور',
       close: 'إغلاق',
       items: [
+
         {
-          id: 'dentavision',
-          kind: 'mobile',
-          title: 'DentaVision',
+          id: 'invite-studio',
+          kind: 'web',
+          title: 'Invite Studio',
           description:
-            'نظام ذكي لمساعدة أطباء الأسنان والمرضى في إدارة المواعيد والملفات الطبية وتحليل صور الأشعة السنية من خلال تطبيق موبايل سهل الاستخدام ومدعوم بخدمات الذكاء الاصطناعي.',
-          role: 'مطوّرة موبايل ومصمّمة واجهة',
-          tech: ['Flutter', 'Dart', 'Firebase', 'REST API'],
-          image: '/images/firstdenta.png',
+            'منصة تجارية لإنشاء دعوات رقمية تفاعلية لحفلات الزفاف والمناسبات الخاصة، تم تطويرها باستخدام React.js وTypeScript. تجمع المنصة بين التصميم الأنيق وتجربة الضيوف المخصصة، مع إمكانية تأكيد الحضور وإدارة المدعوين من خلال لوحات تحكم خاصة بالعملاء، ضمن واجهة متجاوبة ومتعددة اللغات.',
+
+          role: 'المؤسِّسة ومطوّرة الواجهات الأمامية',
+
+          tech: [
+            'React.js',
+            'TypeScript',
+            'Vite',
+            'Cloudflare Pages',
+          ],
+          image: '/images/invite-studio.jpg',
+
           gallery: [
-            '/images/firstdenta.png',
-            '/images/dental-1.jpg',
-            '/images/dental-2.jpg',
-            '/images/dental-3.jpg',
+            '/images/i1.jpg',
+            '/images/i2.jpg',
+            '/images/i3.jpg',
           ],
+
           features: [
-            'إدارة ملفات المرضى والسجل الطبي.',
-            'حجز المواعيد ومتابعتها.',
-            'رفع وعرض صور الأشعة السنية.',
-            'عرض تقارير التشخيص المدعومة بالذكاء الاصطناعي.',
-            'واجهة ثنائية اللغة وسهلة الاستخدام.',
+            'قوالب دعوات رقمية تفاعلية وقابلة للتخصيص.',
+            'روابط دعوة مخصصة لكل ضيف.',
+            'إدارة قوائم المدعوين وتتبع تأكيد الحضور (RSVP).',
+            'لوحات تحكم خاصة بالعملاء مع إحصائيات الحضور.',
+            'رموز QR لتسجيل دخول الضيوف إلى المناسبة.',
+            'دعم العربية والإنجليزية والفرنسية مع اتجاهي العرض RTL/LTR.',
+            'تصميم متجاوب مع الموبايل والكمبيوتر.',
           ],
-          demo: 'https://youtube.com/shorts/H20FJaRzdYQ',
+
+          demo: 'https://invite-studio-bax.pages.dev',
           github: '#',
         },
         {
@@ -377,6 +460,45 @@ export const translations = {
           demo: 'https://youtu.be/zGTPSOQv3s0',
           github: '#',
         },
+        {
+          id: 'dentavision',
+          kind: 'mobile',
+          title: 'DentaVision',
+
+          description:
+            'تطبيق ذكي للرعاية الصحية للأسنان تم تطويره باستخدام Flutter، يدمج نموذج ذكاء اصطناعي لتحليل صور الأسنان والتنبؤ بالأمراض المحتملة. يساعد التطبيق المرضى في الوصول إلى طبيب الأسنان المناسب بناءً على نتيجة التنبؤ واختصاص الطبيب، بالإضافة إلى توفير نظام لحجز المواعيد وإدارتها من خلال واجهة سهلة الاستخدام ومتجاوبة.',
+
+          role: 'مطوّرة Flutter ومسؤولة عن دمج نموذج الذكاء الاصطناعي',
+
+          tech: [
+            'Flutter',
+            'Dart',
+            'RESTful APIs',
+            'AI Model Integration',
+          ],
+
+          image: '/images/firstdenta.png',
+
+          gallery: [
+            '/images/firstdenta.png',
+            '/images/dental-1.jpg',
+            '/images/dental-2.jpg',
+            '/images/dental-3.jpg',
+          ],
+
+          features: [
+            'تحليل صور الأسنان والتنبؤ بالأمراض باستخدام الذكاء الاصطناعي.',
+            'دمج نموذج تعلم آلي لتصنيف أمراض الأسنان.',
+            'اقتراح طبيب الأسنان المناسب بناءً على المرض المتوقع واختصاص الطبيب.',
+            'حجز المواعيد وإدارتها.',
+            'ربط التطبيق بخدمات Backend باستخدام RESTful APIs.',
+            'واجهة موبايل متجاوبة وسهلة الاستخدام.',
+          ],
+
+          demo: 'https://youtube.com/shorts/H20FJaRzdYQ',
+          github: '#',
+        },
+
         {
           id: 'furniture',
           title: 'موقع إلكتروني لبيع المفروشات',
