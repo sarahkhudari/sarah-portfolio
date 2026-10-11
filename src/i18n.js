@@ -16,7 +16,7 @@ export const translations = {
     hero: {
       greeting: 'Hello, I’m',
       name: 'Sarah Alkhudari',
-      role: 'Software Developer & React Frontend Developer',
+      role: 'Software Developer & Flutter and React Frontend Developer',
       tagline:
         'Crafting elegant mobile apps and polished web experiences where thoughtful design meets clean, production-ready code.',
       ctaProjects: 'View Projects',
